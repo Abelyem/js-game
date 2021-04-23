@@ -1,7 +1,15 @@
 .dino {
     position: absolute;
-    bottom: 0;
     width: 60px;
     height: 60px;
-    background-color: red;
+    bottom: 0;
+}
+
+.obstacle {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: orange;
+    background-image: url('/images/spike.png');
+    bottom: 0px;
 }
